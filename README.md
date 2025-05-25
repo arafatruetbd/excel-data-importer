@@ -1,5 +1,4 @@
 
----
 
 # 📊 Excel Plugin with Office JavaScript API
 
@@ -29,7 +28,7 @@ A simple yet functional Excel Add-in that demonstrates how to fetch and display 
 ### 2. Install Office Add-in CLI tools
 
 ```bash
-npm install -g yo generator-office
+yarn global add yo generator-office
 ```
 
 ### 3. Clone the repository
@@ -42,8 +41,8 @@ cd excel-plugin-office-js
 ### 4. Run the Add-in locally
 
 ```bash
-npm install
-npm start
+yarn 
+yarn start
 ```
 
 This will sideload the add-in in Excel and open it in the task pane.
@@ -65,15 +64,6 @@ The add-in:
 * Fluent UI
 * Excel Desktop/Web
 
-## 📁 Project Structure
-
-```
-├── manifest.xml            # Add-in manifest
-├── taskpane.html           # UI layout for the add-in
-├── taskpane.css            # Styling
-├── taskpane.js             # Business logic (Office.js interactions)
-├── assets/                 # Logo and icons
-```
 
 ## 📄 License
 
@@ -92,6 +82,3 @@ Pull requests are welcome! Feel free to fork and improve this example — especi
 **Arfat Hossain**
 📫 [LinkedIn](https://www.linkedin.com/in/arfat-hossain-a89531148) | 🌐 [Portfolio](https://portfolio-arafat.vercel.app/)
 
----
-
-Let me know if you'd like to add badges (e.g., GitHub stars, build status) or setup instructions for deployment or production!
