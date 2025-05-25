@@ -15,7 +15,7 @@ A simple yet functional Excel Add-in that demonstrates how to fetch and display 
 
 ## 📸 Preview
 
-![Plugin Screenshot](./assets/screenshot.png)
+![Plugin Screenshot](./assets/Screenshot%202025-05-25%20195905.png)
 *A welcome page with a "Run" button to fetch and populate data into Excel*
 
 ## 🚀 Getting Started
